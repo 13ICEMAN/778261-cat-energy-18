@@ -1,0 +1,38 @@
+body {
+  width: 320px;
+}
+
+@import "mixins.scss";
+@import "font-face.scss";
+@import "variables.scss";
+@import "visually-hidden.scss";
+@import "box-sizing.scss";
+@import "normalize.scss";
+
+@import "blocks/additionally/index.scss";
+@import "blocks/cat/index.scss";
+@import "blocks/catalog/index.scss";
+@import "blocks/comment/index.scss";
+@import "blocks/condition/index.scss";
+@import "blocks/contacts/index.scss";
+@import "blocks/copyright/index.scss";
+@import "blocks/example/index.scss";
+@import "blocks/info/index.scss";
+@import "blocks/main-nav/index.scss";
+@import "blocks/other-catalog/index.scss";
+@import "blocks/other-product/index.scss";
+@import "blocks/owner/index.scss";
+@import "blocks/page-footer/index.scss";
+@import "blocks/page-header/index.scss";
+@import "blocks/page-main/index.scss";
+@import "blocks/period/index.scss";
+@import "blocks/product/index.scss";
+@import "blocks/program/index.scss";
+@import "blocks/programs/index.scss";
+@import "blocks/purpose/index.scss";
+@import "blocks/selection/index.scss";
+@import "blocks/site-list/index.scss";
+@import "blocks/slider/index.scss";
+@import "blocks/social/index.scss";
+@import "blocks/stats/index.scss";
+@import "blocks/weight/index.scss";

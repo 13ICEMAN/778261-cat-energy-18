@@ -1,0 +1,9 @@
+.page-main__slogan {
+  @include font(400);
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: normal;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+}

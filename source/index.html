@@ -3,16 +3,17 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Cat energy</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
 
     <header class="page-header">
 
       <a class="page-header__logo">
-        <img class="page-header__logo-image" src="./img/logo-mobile-top.svg" width="191" height="39" alt="Логотип Cat energy">
+        <img src="./img/logo-mobile.svg" width="191" height="39" alt="Логотип Cat energy">
       </a>
 
-      <nav class="main-nav">
+      <nav class="page-header__nav main-nav">
         <button class="main-nav__toggle" type="button">Открыть меню</button>
         <div class="main-nav__wrapper">
           <ul class="main-nav__list site-list">
@@ -31,7 +32,7 @@
 
     </header>
 
-    <main class="page-main">
+    <main class="page-main page-main--first">
 
       <h1 class="page-main__title">Функциональное питание для котов</h1>
       <p class="page-main__slogan">Занялся собой? Займись котом!</p>
@@ -39,7 +40,7 @@
       <section class="programs">
         <div class="programs__wrapper">
           <h2 class="visually-hidden">Программы</h2>
-          <a class="programs__choice button" href="#">Подобрать программу</a>
+          <a class="programs__choice" href="#">Подобрать программу</a>
           <ul class="programs__list">
             <li class="programs__item program">
               <h3 class="program__title">Похудение</h3>
@@ -100,10 +101,10 @@
         <div class="example__slider slider">
           <ul class="slider__list">
             <li class="slider__item condition">
-              <img class="condition__photo condition__photo--before" src="./img/berore.jpg" width="311" height="232" alt="Был толстый кот">
+              <img class="condition__photo condition__photo--before" src="./img/before-mobile@1x.png" width="311" height="232" alt="Был толстый кот">
             </li>
             <li class="slider__item condition">
-              <img class="condition__photo condition__photo--after" src="./img/after.jpg" width="311" height="232" alt="Стал худой кот">
+              <img class="condition__photo condition__photo--after" src="./img/after-mobile@1x.png" width="311" height="232" alt="Стал худой кот">
             </li>
           </ul>
           <p class="slider__toggles">
@@ -116,16 +117,17 @@
     </main>
 
     <footer class="page-footer">
+
+      <div class="page-footer__contacts contacts">
+        <p class="contacts__text">Приглашаем к сотрудничеству дилеров!</p>
+        <p class="contacts__adress">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
+        <img class="contacts__map" src="./img/map.jpg" width="320" height="400" alt="Офис компании по адресу Санкт-Петербург ул. Большая Конюшенная 19/8">
+      </div>
+
       <div class="page-footer__wrapper">
 
-        <div class="page-footer__contacts contacts">
-          <b class="contacts__text">Приглашаем к сотрудничеству дилеров!</b>
-          <p class="contacts__text">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
-          <img class="contacts__map" src="./img/map.jpg" width="320" height="400" alt="Офис компании по адресу Санкт-Петербург ул. Большая Конюшенная 19/8">
-        </div>
-
         <a class="page-footer__logo">
-          <img class="page-footer__logo-image" src="./img/logo-mobile-bottom.svg" width="128" height="24" alt="Логотип Cat energy">
+          <img src="./img/logo-footer.svg" width="128" height="24" alt="Логотип Cat energy">
         </a>
 
         <div class="page-footer__social social">
@@ -133,28 +135,28 @@
             <li class="social__item">
               <a class="social__link social__link--vkontakte" href="#">
                 <span class="visually-hidden">Cat energy во Вконтакте</span>
-                <img src="./img/vk-icon.svg" width="22" height="12" alt="Логотип Вконтакте">
+                <img src="./img/icon-vk.svg" width="22" height="12" alt="Логотип Вконтакте">
               </a>
             </li>
             <li class="social__item">
               <a class="social__link social__link--instagram" href="#">
                 <span class="visually-hidden">Cat energy в Инстаграме</span>
-                <img src="./img/insta-icon.svg" width="17" height="17" alt="Логотип Инстаграмма">
+                <img src="./img/icon-insta.svg" width="17" height="17" alt="Логотип Инстаграмма">
               </a>
             </li>
             <li class="social__item">
               <a class="social__link social__link--facebook" href="#">
                 <span class="visually-hidden">Cat energy в Фейсбуке</span>
-                <img src="./img/fb-icon.svg" width="10" height="19" alt="Логотип Фейсбука">
+                <img src="./img/icon-fb.svg" width="10" height="19" alt="Логотип Фейсбука">
               </a>
             </li>
           </ul>
         </div>
 
-        <div class="page-footer__copyrght copyrght">
-          <a class="copyrght__link" href="https://htmlacademy.ru/intensive/adaptive" target="_blank">
-            <p class="copyrght__text">HTML Academy</p>
-            <img src="./img/academy-icon.svg" width="27" height="34" alt="Логотип HTML Academy">
+        <div class="page-footer__copyright copyright">
+          <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive" target="_blank">
+            <p class="copyright__text">HTML Academy</p>
+            <img src="./img/htmlacademy.svg" width="27" height="34" alt="Логотип HTML Academy">
           </a>
         </div>
 
