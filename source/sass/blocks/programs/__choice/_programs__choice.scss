@@ -1,0 +1,14 @@
+.programs__choice {
+  @include font(400);
+  display: block;
+  width: 280px;
+  padding-top: 14px;
+  padding-bottom: 18px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #68b738;
+}

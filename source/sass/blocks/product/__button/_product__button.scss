@@ -1,0 +1,19 @@
+.product__button {
+  @include font(400);
+  display: block;
+  width: 280px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #68b738;
+}
+
+.catalog__item:last-child .product__button {
+  color: #444444;
+  background-color: #f2f2f2;
+}

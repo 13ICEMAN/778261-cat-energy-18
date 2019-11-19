@@ -1,0 +1,6 @@
+.stats__text {
+  @include font(400);
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
