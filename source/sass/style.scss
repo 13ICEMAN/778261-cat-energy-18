@@ -1,13 +1,10 @@
-body {
-  width: 320px;
-}
-
-@import "mixins.scss";
 @import "font-face.scss";
 @import "variables.scss";
-@import "visually-hidden.scss";
-@import "box-sizing.scss";
+@import "base.scss";
 @import "normalize.scss";
+
+@import "mixins/_font.scss";
+@import "mixins/_list.scss";
 
 @import "blocks/additionally/index.scss";
 @import "blocks/cat/index.scss";
