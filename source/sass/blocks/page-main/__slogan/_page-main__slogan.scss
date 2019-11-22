@@ -7,3 +7,12 @@
   text-transform: uppercase;
   text-align: center;
 }
+
+@media (min-width: $tablet-width) {
+  .page-main__slogan {
+    @include font(400);
+    font-size: 20px;
+    line-height: 20px;
+    text-align: left;
+  }
+}

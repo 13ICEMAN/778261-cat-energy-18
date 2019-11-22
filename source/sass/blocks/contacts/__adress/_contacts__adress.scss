@@ -1,6 +1,13 @@
 .contacts__adress {
+  width: 134px;
   font-family: "Arial", sans-serif;
   font-size: 14px;
   line-height: 20px;
   color: #444444;
+}
+
+@media (min-width: $tablet-width) {
+  .contacts__adress {
+    width: 155px;
+  }
 }

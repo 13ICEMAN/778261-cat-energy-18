@@ -3,3 +3,9 @@
   font-size: 36px;
   line-height: 60px;
 }
+
+@media (min-width: $tablet-width) {
+  .info__title {
+    font-size: 60px;
+  }
+}

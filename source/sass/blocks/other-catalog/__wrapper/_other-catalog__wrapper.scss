@@ -1,13 +1,10 @@
-.programs__list {
-  @include list;
+.other-catalog__wrapper {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 @media (min-width: $desktop-width) {
-  .programs__list {
+  .other-catalog__wrapper {
     flex-direction: row;
-    flex-wrap: wrap;
   }
 }

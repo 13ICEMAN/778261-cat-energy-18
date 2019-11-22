@@ -1,1 +1,9 @@
-// TODO: do this
+.period {
+  width: 124px;
+}
+
+@media (min-width: $tablet-width) {
+  .period {
+    width: 162px;
+  }
+}

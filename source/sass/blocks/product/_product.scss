@@ -1,1 +1,34 @@
-// TODO: do this
+.product {
+  width: 280px;
+}
+
+@media (min-width: $tablet-width) {
+  .product {
+    width: 324px;
+    margin-right: 60px;
+    background-color: #f2f2ff;
+  }
+
+  .product:nth-child(2n) {
+    margin-right: 0;
+  }
+
+  .product:last-child {
+    background-color: #ffffff;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .product {
+    width: 245px;
+    margin-right: 80px;
+  }
+
+  .product:nth-child(2n) {
+    margin-right: 80px;
+  }
+
+  .product:nth-child(4n) {
+    margin-right: 0;
+  }
+}

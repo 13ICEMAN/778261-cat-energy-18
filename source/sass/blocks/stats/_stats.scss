@@ -1,1 +1,10 @@
-// TODO: do this
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (min-width: $desktop-width) {
+  .stats {
+    width: 366px;
+  }
+}

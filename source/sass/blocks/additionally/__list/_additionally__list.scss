@@ -1,12 +1,10 @@
-.catalog__list {
-  @include list;
+.additionally__list {
   display: flex;
   flex-direction: column;
 }
 
 @media (min-width: $tablet-width) {
-  .catalog__list {
+  .additionally__list {
     flex-direction: row;
-    flex-wrap: wrap;
   }
 }
