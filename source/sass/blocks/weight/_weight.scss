@@ -1,1 +1,9 @@
-// TODO: do this
+.weight {
+  width: 124px;
+}
+
+@media (min-width: $tablet-width) {
+  .weight {
+    width: 162px;
+  }
+}

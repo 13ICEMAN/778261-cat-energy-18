@@ -13,3 +13,15 @@
   text-align: center;
   background-color: #68b738;
 }
+
+@media (min-width: $tablet-width) {
+  .selection__button {
+    width: 283px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .selection__button {
+    width: 568px;
+  }
+}

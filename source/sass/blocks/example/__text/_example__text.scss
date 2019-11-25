@@ -1,6 +1,21 @@
 .example__text {
+  width: 266px;
   font-family: "Arial", sans-serif;
   font-size: 14px;
   line-height: 18px;
   color: #444444;
+}
+
+@media (min-width: $tablet-width) {
+  .example__text {
+    width: 674px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .example__text {
+    width: 430px;
+  }
 }

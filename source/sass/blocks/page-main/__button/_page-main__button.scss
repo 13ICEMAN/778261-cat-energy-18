@@ -1,7 +1,8 @@
-.programs__choice {
+.page-main__button {
   @include font(400);
   display: block;
   width: 280px;
+  margin: 0 auto;
   padding-top: 14px;
   padding-bottom: 18px;
   font-size: 14px;
@@ -11,4 +12,13 @@
   text-transform: uppercase;
   text-align: center;
   background-color: #68b738;
+}
+
+@media (min-width: $tablet-width) {
+  .page-main__button {
+    width: 245px;
+    margin-left: 0;
+    font-size: 20px;
+    line-height: 20px;
+  }
 }

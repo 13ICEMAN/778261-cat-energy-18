@@ -1,1 +1,19 @@
-// TODO: do this
+.other-product {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+}
+
+@media (min-width: $tablet-width) {
+  .other-product {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 708px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .other-product {
+    width: 895px;
+  }
+}

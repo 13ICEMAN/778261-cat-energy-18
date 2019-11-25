@@ -1,1 +1,16 @@
-// TODO: do this
+.programs {
+  width: 280px;
+  margin: 0 auto;
+}
+
+@media (min-width: $tablet-width) {
+  .programs {
+    width: 708px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .programs {
+    width: 1220px;
+  }
+}

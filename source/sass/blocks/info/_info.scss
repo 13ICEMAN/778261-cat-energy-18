@@ -1,1 +1,16 @@
-// TODO: do this
+.info {
+  width: 280px;
+  margin: 0 auto;
+}
+
+@media (min-width: $tablet-width) {
+  .info {
+    width: 708px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .info {
+    width: 1220px;
+  }
+}

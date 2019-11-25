@@ -1,1 +1,18 @@
-// TODO: do this
+.contacts {
+  display: flex;
+  flex-wrap: wrap;
+  width: 280px;
+  margin: 0 auto;
+}
+
+@media (min-width: $tablet-width) {
+  .contacts {
+    width: 708px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .contacts {
+    width: 1220px;
+  }
+}
