@@ -3,18 +3,24 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 280px;
+  width: 320px;
   margin: 0 auto;
+  padding-top: 11px;
+  border-bottom: 1px solid #cdcdcd;
 }
 
 @media (min-width: $tablet-width) {
   .page-header {
     width: 708px;
+    padding-top: 24px;
+    border-bottom: none;
   }
 }
 
 @media (min-width: $desktop-width) {
   .page-header {
     width: 1220px;
+    padding-top: 53px;
+    background-color: chartreuse;
   }
 }

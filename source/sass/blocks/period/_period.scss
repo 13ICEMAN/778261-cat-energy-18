@@ -1,9 +1,17 @@
 .period {
-  width: 124px;
+  position: relative;
+  width: 125px;
+  margin-bottom: 35px;
 }
 
 @media (min-width: $tablet-width) {
   .period {
     width: 162px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .period {
+    margin-bottom: 34px;
   }
 }

@@ -4,3 +4,16 @@
   line-height: 20px;
   text-transform: uppercase;
 }
+
+@media (min-width: $tablet-width) {
+  .stats__text {
+    margin-top: -4px;
+    font-size: 20px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .stats__text {
+    margin-top: 0;
+  }
+}

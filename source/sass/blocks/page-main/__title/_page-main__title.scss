@@ -1,19 +1,24 @@
 .page-main__title {
   @include font(400);
+  margin: 0;
+  margin-left: 20px;
+  margin-bottom: 25px;
   font-size: 36px;
   line-height: 60px;
-  text-align: center;
 }
 
 .page-main--initial .page-main__title {
   width: 250px;
   margin: 0 auto;
+  margin-bottom: 26px;
   line-height: 36px;
   color: #ffffff;
+  text-align: center;
 }
 
 @media (min-width: $tablet-width) {
   .page-main__title {
+    margin-left: 0;
     font-size: 60px;
     text-align: left;
   }
@@ -21,7 +26,15 @@
   .page-main--initial .page-main__title {
     @include font(400);
     width: 415px;
-    margin-left: 0;
+    margin-left: 88px;
+    margin-bottom: 42px;
     line-height: 60px;
+    text-align: left;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .page-main--initial .page-main__title {
+    margin-left: 81px;
   }
 }

@@ -1,1 +1,14 @@
-// TODO: do this
+.page-footer__logo {
+  margin-right: auto;
+  margin-bottom: 30px;
+  margin-left: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+@media (min-width: $tablet-width) {
+  .page-footer__logo {
+    margin-bottom: 0;
+    margin-left: 0;
+  }
+}

@@ -1,4 +1,7 @@
 .other-product__data {
+  width: 286px;
+  margin-bottom: 13px;
+  margin-left: -3px;
   font-family: "Arial", sans-serif;
   font-size: 14px;
   line-height: 14px;
@@ -7,6 +10,17 @@
 
 @media (min-width: $tablet-width) {
   .other-product__data {
+    margin-top: 3px;
     margin-left: auto;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .other-product__data {
+    width: 292px;
+    margin-top: 9px;
+    margin-bottom: 0;
   }
 }

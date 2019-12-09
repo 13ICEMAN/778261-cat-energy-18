@@ -1,1 +1,22 @@
-// TODO: do this
+.other-catalog {
+  width: 280px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 28px;
+  padding-bottom: 35px;
+}
+
+@media (min-width: $tablet-width) {
+  .other-catalog {
+    width: 708px;
+    padding-bottom: 76px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .other-catalog {
+    width: 1220px;
+    padding-top: 37px;
+    padding-bottom: 17px;
+  }
+}

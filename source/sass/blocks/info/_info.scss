@@ -1,11 +1,13 @@
 .info {
   width: 280px;
   margin: 0 auto;
+  padding-bottom: 22px;
 }
 
 @media (min-width: $tablet-width) {
   .info {
     width: 708px;
+    padding-bottom: 24px;
   }
 }
 

@@ -6,9 +6,12 @@
   text-transform: uppercase;
 }
 
+.program__link:active {
+  opacity: 0.3;
+}
+
 @media (min-width: $tablet-width) {
   .program__link {
-    width: 708px;
     font-size: 20px;
     line-height: 20px;
   }

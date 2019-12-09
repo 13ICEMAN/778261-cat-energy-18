@@ -1,1 +1,32 @@
-// TODO: do this
+.page-header__logo {
+  padding-bottom: 13px;
+  padding-left: 20px;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .page-header__logo {
+    padding-left: 0;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .page-header__logo img {
+    width: 174px;
+    height: auto;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .page-header__logo img {
+    width: 203px;
+    height: auto;
+  }
+}

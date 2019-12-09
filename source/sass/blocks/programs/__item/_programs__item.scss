@@ -1,1 +1,19 @@
-// TODO: do this
+.programs__item {
+  margin-bottom: 20px;
+}
+
+.programs__item:last-child {
+  margin-bottom: 0;
+}
+
+@media (min-width: $tablet-width) {
+  .programs__item {
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .programs__item {
+    margin-bottom: 0;
+  }
+}

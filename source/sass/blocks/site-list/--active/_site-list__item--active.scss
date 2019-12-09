@@ -1,1 +1,11 @@
-// TODO: do this
+@media (min-width: $tablet-width) {
+  .site-list__item--active .site-list__link {
+    border-bottom: 2px solid #68b738;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .page-header--initial .site-list__item--active .site-list__link {
+    border-bottom: 2px solid #ffffff;
+  }
+}
