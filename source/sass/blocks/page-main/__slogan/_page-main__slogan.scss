@@ -1,5 +1,6 @@
 .page-main__slogan {
   @include font(400);
+  margin-bottom: 302px;
   font-size: 14px;
   line-height: 14px;
   font-weight: normal;
@@ -11,8 +12,17 @@
 @media (min-width: $tablet-width) {
   .page-main__slogan {
     @include font(400);
+    margin-bottom: 47px;
+    margin-left: 89px;
     font-size: 20px;
     line-height: 20px;
     text-align: left;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .page-main__slogan {
+    margin-bottom: 52px;
+    margin-left: 81px;
   }
 }

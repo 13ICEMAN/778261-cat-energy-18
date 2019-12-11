@@ -1,1 +1,52 @@
-// TODO: do this
+.catalog__item {
+  border: 1px solid #ededed;
+  border-bottom: none;
+}
+
+.catalog__item:last-child {
+  border-bottom: 1px solid #ededed;
+}
+
+@media (min-width: $tablet-width) {
+  .catalog__item {
+    margin-right: 60px;
+    margin-bottom: 58px;
+    border: none;
+  }
+
+  .catalog__item:nth-child(2n) {
+    margin-right: 0;
+  }
+
+  .catalog__item:last-child {
+    margin-top: 5px;
+    margin-bottom: 0;
+  }
+
+  .catalog__item:nth-last-child(2) {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .catalog__item {
+    margin-right: 80px;
+  }
+
+  .catalog__item:nth-child(2n) {
+    margin-right: 80px;
+  }
+
+  .catalog__item:nth-child(4n) {
+    margin-right: 0;
+  }
+
+  .catalog__item:last-child {
+    margin-top: 4px;
+  }
+
+  .catalog__item:nth-last-child(3),
+  .catalog__item:nth-last-child(4) {
+    margin-bottom: 0;
+  }
+}

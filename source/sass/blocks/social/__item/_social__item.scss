@@ -1,1 +1,7 @@
-// TODO: do this
+.social__item {
+  margin-right: 17px;
+}
+
+.social__item:last-child {
+  margin-right: 0;
+}

@@ -1,13 +1,46 @@
 .program__text {
+  position: relative;
+  width: 225px;
+  margin-bottom: 40px;
   font-family: "Arial", sans-serif;
   font-size: 14px;
   line-height: 18px;
   color: #444444;
 }
 
+.program__text::after {
+  position: absolute;
+  content: "";
+  bottom: -23px;
+  left: 0;
+  width: 240px;
+  height: 1px;
+  background-color: #cdcdcd;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
 @media (min-width: $tablet-width) {
   .program__text {
+    width: 372px;
+    margin-bottom: 57px;
     font-size: 16px;
     line-height: 24px;
+  }
+
+  .programs__item:last-child .program__text {
+    width: 340px;
+  }
+
+  .program__text::after {
+    display: none;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .program__text,
+  .programs__item:last-child .program__text {
+    width: 462px;
+    margin-bottom: 31px;
   }
 }

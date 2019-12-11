@@ -1,1 +1,10 @@
-// TODO: do this
+.catalog {
+  padding-top: 3px;
+}
+
+@media (min-width: $tablet-width) {
+  .catalog {
+    padding-top: 59px;
+    padding-bottom: 38px;
+  }
+}

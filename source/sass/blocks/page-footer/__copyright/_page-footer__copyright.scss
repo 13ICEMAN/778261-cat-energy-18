@@ -1,1 +1,19 @@
-// TODO: do this
+.page-footer__copyright {
+  width: 280px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: $tablet-width) {
+  .page-footer__copyright {
+    width: 163px;
+    margin-top: -4px;
+    margin-right: 0;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .page-footer__copyright {
+    margin-top: -2px;
+  }
+}

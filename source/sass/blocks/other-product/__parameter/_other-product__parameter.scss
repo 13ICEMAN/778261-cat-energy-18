@@ -1,1 +1,15 @@
-// TODO: do this
+.other-product__parameter {
+  padding: 0;
+}
+
+@media (min-width: $tablet-width) {
+  .other-product__parameter {
+    text-align: right;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .other-product__parameter {
+    text-align: left;
+  }
+}

@@ -1,0 +1,23 @@
+.stats__cost {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: $tablet-width) {
+  .stats__cost {
+    flex-direction: column;
+    width: 174px;
+    margin-right: 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .stats__cost {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 327px;
+    margin-left: 0;
+    padding-top: 46px;
+  }
+}

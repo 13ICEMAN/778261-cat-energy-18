@@ -1,16 +1,19 @@
 .programs {
   width: 280px;
   margin: 0 auto;
+  padding-bottom: 17px;
 }
 
 @media (min-width: $tablet-width) {
   .programs {
     width: 708px;
+    padding-bottom: 45px;
   }
 }
 
 @media (min-width: $desktop-width) {
   .programs {
     width: 1220px;
+    padding-bottom: 74px;
   }
 }

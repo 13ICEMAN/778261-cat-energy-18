@@ -1,12 +1,21 @@
 .example__title {
   @include font(400);
+  margin: 0;
+  margin-bottom: 23px;
   font-size: 36px;
   line-height: 60px;
 }
 
 @media (min-width: $tablet-width) {
   .example__title {
+    margin-bottom: 64px;
     font-size: 60px;
     background-color: #ffffff;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .example__title {
+    margin-bottom: 146px;
   }
 }
