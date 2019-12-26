@@ -1,1 +1,19 @@
-// TODO: do this
+.slider {
+  width: 320px;
+}
+
+@media (min-width: $tablet-width) {
+  .slider {
+    width: 768px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .slider {
+    width: 690px;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}

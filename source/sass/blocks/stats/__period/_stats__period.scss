@@ -1,1 +1,9 @@
-// TODO: do this
+.stats__period {
+  margin-bottom: 34px;
+}
+
+@media (min-width: $desktop-width) {
+  .stats__period {
+    margin-bottom: 33px;
+  }
+}

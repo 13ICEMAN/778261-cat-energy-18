@@ -1,0 +1,19 @@
+.slider__scale {
+  width: 84px;
+  height: 14px;
+  margin-top: 4px;
+  border: 1px solid #cdcdcd;
+  border-radius: 6px;
+  background-color: #ffffff;
+}
+
+@media (min-width: $tablet-width) {
+  .slider__scale {
+    width: 428px;
+    height: 6px;
+    margin-top: 8px;
+    border: none;
+    border-radius: 2.5px;
+    background-color: #dcdcdc;
+  }
+}

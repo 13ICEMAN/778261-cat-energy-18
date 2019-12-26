@@ -47,38 +47,32 @@
         <div class="selection__wrapper">
           <fieldset class="selection__group cat">
             <p class="selection__item">
-              <label class="cat__data">Имя:<sup>*</sup>
-                <input class="cat__text" type="text" name="name" placeholder="Барсик" required>
-              </label>
+              <label class="cat__data" for="cat-name">Имя:*</label>
+              <input class="cat__text" type="text" name="name" id="cat-name" placeholder="Барсик" required>
             </p>
             <p class="selection__item">
-              <label class="cat__data">Вес (кг):<sup>*</sup>
-                <input class="cat__text" type="text" name="weight" placeholder="7" required>
-              </label>
+              <label class="cat__data" for="cat-weight">Вес&nbsp;(кг):*</label>
+              <input class="cat__text" type="text" name="weight" id="cat-weight" placeholder="7" required>
             </p>
             <p class="selection__item">
-              <label class="cat__data">Возраст (лет):
-                <input class="cat__text" type="text" name="age" placeholder="7">
-              </label>
+              <label class="cat__data" for="cat-age">Возраст&nbsp;(лет):</label>
+              <input class="cat__text" type="text" name="age" id="cat-age" placeholder="7">
             </p>
           </fieldset>
 
           <fieldset class="selection__group purpose">
             <ul class="selection__list">
               <li class="selection__item">
-                <label class="purpose__data">
-                  <input class="purpose__radio" type="radio" name="purpose" value="Похудение" checked>Похудение
-                </label>
+                <input class="visually-hidden purpose__radio" type="radio" name="purpose" value="Похудение" id="fat" checked>
+                <label class="purpose__data" for="fat">Похудение</label>
               </li>
               <li class="selection__item">
-                <label class="purpose__data">
-                  <input class="purpose__radio" type="radio" name="purpose" value="Набор массы">Набор массы
-                </label>
+                <input class="visually-hidden purpose__radio" type="radio" name="purpose" value="Набор массы" id="thin">
+                <label class="purpose__data" for="thin">Набор массы</label>
               </li>
               <li class="selection__item">
-                <label class="purpose__data">
-                  <input class="purpose__radio" type="radio" name="purpose" value="Не знаю (Нужен ваш совет)">Не знаю (Нужен ваш совет)
-                </label>
+                <input class="visually-hidden purpose__radio" type="radio" name="purpose" value="Не знаю (Нужен ваш совет)" id="advice">
+                <label class="purpose__data" for="advice">Не знаю (Нужен ваш совет)</label>
               </li>
             </ul>
           </fieldset>
@@ -88,14 +82,12 @@
           <legend class="selection__parameter">Контактные данные (владельца кота)</legend>
           <div class="owner__wrapper">
             <p class="selection__item">
-              <label class="owner__data">E-mail:<sup>*</sup>
-                <input class="owner__text" type="email" name="email" placeholder="kuklachev@gmail.com" required>
-              </label>
+              <label class="owner__data" for="owner-email">E&#8209;mail:*</label>
+              <input class="owner__text" type="email" name="email" id="owner-email" placeholder="kuklachev@gmail.com" required>
             </p>
             <p class="selection__item">
-              <label class="owner__data">Телефон:<sup>*</sup>
-                <input class="owner__text" type="tel" name="tel" placeholder="8 (960) 900-60-90" required>
-              </label>
+              <label class="owner__data" for="owner-tel">Телефон:*</label>
+              <input class="owner__text" type="tel" name="tel" id="owner-tel" placeholder="8 (960) 900-60-90" required>
             </p>
           </div>
         </fieldset>
@@ -109,32 +101,28 @@
           <legend class="selection__parameter">Дополнительно</legend>
           <ul class="selection__list additionally__list">
             <li class="selection__item">
-              <label class="additionally__data">
-                <input class="additionally__checkbox" type="checkbox" name="Sugarsubstitute" checked>Сахарозаменитель
-              </label>
+              <input class="visually-hidden additionally__checkbox" type="checkbox" name="sugarsubstitute" id="sugar" checked>
+              <label class="additionally__data" for="sugar">Сахарозаменитель</label>
             </li>
             <li class="selection__item">
-              <label class="additionally__data">
-                <input class="additionally__checkbox" type="checkbox" name="water">Питьевая вода
-              </label>
+              <input class="visually-hidden additionally__checkbox" type="checkbox" name="water" id="water">
+              <label class="additionally__data" for="water">Питьевая вода</label>
             </li>
             <li class="selection__item">
-              <label class="additionally__data">
-                <input class="additionally__checkbox" type="checkbox" name="milk">Молоко
-              </label>
+              <input class="visually-hidden additionally__checkbox" type="checkbox" name="milk" id="milk">
+              <label class="additionally__data" for="milk">Молоко</label>
             </li>
             <li class="selection__item">
-              <label class="additionally__data">
-                <input class="additionally__checkbox" type="checkbox" name="vitamins">Витамины
-              </label>
+              <input class="visually-hidden additionally__checkbox" type="checkbox" name="vitamins" id="vitamins">
+              <label class="additionally__data" for="vitamins">Витамины</label>
             </li>
           </ul>
         </fieldset>
 
-        <button class="selection__button" type="submit">Отправить заявку</button>
-        <p class="selection__text">
-          <sup>*</sup> — Обязательные поля
-        </p>
+        <div class="selection__wrapper-bottom">
+          <button class="selection__button" type="submit">Отправить заявку</button>
+          <p class="selection__text">* — Обязательные поля</p>
+        </div>
 
       </form>
     </main>
@@ -142,10 +130,21 @@
     <footer class="page-footer">
 
       <div class="page-footer__contacts contacts">
-        <p class="contacts__text">Приглашаем к&nbsp;сотрудничеству дилеров!</p>
-        <address class="contacts__adress">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</address>
+        <div class="contacts__wrapper">
+          <p class="contacts__text">Приглашаем к&nbsp;сотрудничеству дилеров!</p>
+          <address class="contacts__adress">ул. Большая Конюшенная, д. 19/8 <span>Санкт-Петербург</span></address>
+        </div>
       </div>
-      <img src="./img/map.jpg" width="320" height="400" alt="Офис компании по адресу Санкт-Петербург ул. Большая Конюшенная 19/8">
+
+      <picture>
+        <source media="(min-width: 1300px)"
+          srcset="./img/bg-map-desktop@1x.png 1x, ./img/bg-map-desktop@2x.png 2x">
+        <source media="(min-width: 768px)"
+          srcset="./img/bg-map-tablet@1x.png 1x, ./img/bg-map-tablet@2x.png 2x">
+        <img  class="page-footer__map"
+          src="./img/bg-map-mobile@1x.png"
+          srcset="./img/bg-map-mobile@2x.png 2x" alt="Офис компании по адресу Санкт-Петербург ул. Большая Конюшенная 19/8">
+      </picture>
 
       <div class="page-footer__bottom">
 
@@ -189,22 +188,8 @@
       </div>
     </footer>
 
-    <script>
-      var navMain = document.querySelector('.main-nav');
-      var navToggle = document.querySelector('.main-nav__toggle');
-
-      navMain.classList.remove('main-nav--nojs');
-
-      navToggle.addEventListener('click', function() {
-        if (navMain.classList.contains('main-nav--closed')) {
-          navMain.classList.remove('main-nav--closed');
-          navMain.classList.add('main-nav--opened');
-        } else {
-          navMain.classList.add('main-nav--closed');
-          navMain.classList.remove('main-nav--opened');
-        }
-      });
-    </script>
+    <script src="js/open-menu.js"></script>
+    <script src="js/picturefill.min.js"></script>
 
   </body>
 </html>

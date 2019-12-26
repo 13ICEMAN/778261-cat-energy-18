@@ -19,6 +19,7 @@
   }
 
   .catalog__item:last-child {
+    align-self: flex-end;
     margin-top: 5px;
     margin-bottom: 0;
   }
@@ -31,6 +32,7 @@
 @media (min-width: $desktop-width) {
   .catalog__item {
     margin-right: 80px;
+    margin-bottom: 61px;
   }
 
   .catalog__item:nth-child(2n) {

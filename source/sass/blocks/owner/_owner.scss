@@ -1,1 +1,19 @@
-// TODO: do this
+.owner {
+  margin-bottom: 16px;
+}
+
+@media (min-width: $tablet-width) {
+  .owner {
+    margin-bottom: 52px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .owner {
+    margin-right: 0;
+    margin-bottom: 47px;
+    margin-left: 0;
+    padding: 0;
+    padding-left: 1px;
+  }
+}

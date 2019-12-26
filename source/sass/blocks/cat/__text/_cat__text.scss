@@ -1,7 +1,40 @@
 .cat__text {
   @include font(400);
+  width: 100%;
+  margin-left: 14px;
+  padding-top: 13px;
+  padding-bottom: 12px;
+  padding-left: 14px;
+  border: 1px solid #cdcdcd;
   font-size: 16px;
   line-height: 18px;
   color: #444444;
   text-transform: uppercase;
+}
+
+.selection__item:nth-child(2) .cat__text {
+  margin-left: 17px;
+}
+
+.selection__item:nth-child(3) .cat__text {
+  margin-left: 15px;
+}
+
+@media (min-width: $tablet-width) {
+  .cat__text {
+    margin-left: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 18px;
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .selection__item:nth-child(2) .cat__text {
+    margin-left: 20px;
+  }
+
+  .selection__item:nth-child(3) .cat__text {
+    margin-left: 17px;
+  }
 }

@@ -2,7 +2,10 @@
   @include font(400);
   display: block;
   width: 280px;
+  margin: 0 auto;
+  margin-bottom: 21px;
   padding-top: 10px;
+  padding-right: 2px;
   padding-bottom: 10px;
   border: none;
   font-size: 16px;
@@ -17,11 +20,18 @@
 @media (min-width: $tablet-width) {
   .selection__button {
     width: 283px;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-bottom: 17px;
+    font-size: 20px;
   }
 }
 
 @media (min-width: $desktop-width) {
   .selection__button {
     width: 568px;
+    padding-right: 2px;
   }
 }

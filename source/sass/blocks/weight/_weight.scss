@@ -1,17 +1,10 @@
 .weight {
   position: relative;
   width: 125px;
-  margin-bottom: 35px;
 }
 
 @media (min-width: $tablet-width) {
   .weight {
     width: 162px;
-  }
-}
-
-@media (min-width: $desktop-width) {
-  .weight {
-    margin-bottom: 34px;
   }
 }

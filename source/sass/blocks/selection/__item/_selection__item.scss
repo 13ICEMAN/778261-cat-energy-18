@@ -7,3 +7,154 @@
   text-transform: uppercase;
   color: #222222;
 }
+
+.cat .selection__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.cat .selection__item:last-child {
+  margin-bottom: 0;
+}
+
+.purpose .selection__item {
+  margin-bottom: 24px;
+  padding-left: 46px;
+}
+
+.purpose .selection__item:first-child {
+  margin-bottom: 25px;
+}
+
+.purpose .selection__item:last-child {
+  margin-bottom: 0;
+}
+
+.owner .selection__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.owner .selection__item:last-child {
+  margin-bottom: 0;
+}
+
+.comment .selection__item {
+  margin-left: 3px;
+  padding-top: 13px;
+  padding-bottom: 45px;
+  padding-left: 15px;
+  border: 1px solid #cdcdcd;
+  resize: none;
+}
+
+.additionally .selection__item {
+  margin-bottom: 24px;
+  padding-left: 46px;
+}
+
+.additionally .selection__item:first-child {
+  margin-bottom: 25px;
+}
+
+@media (min-width: $tablet-width) {
+  .selection__item {
+    width: 630px;
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .cat .selection__item {
+    width: 635px;
+    margin-bottom: 20px;
+    padding-left: 5px;
+  }
+
+  .purpose .selection__item {
+    width: 598px;
+    margin-bottom: 33px;
+    padding-left: 72px;
+  }
+
+  .purpose .selection__item:first-child {
+    margin-bottom: 33px;
+  }
+
+  .owner .selection__item {
+    width: 638px;
+    margin-bottom: 20px;
+    padding-left: 6px;
+  }
+
+  .owner .selection__item:nth-child(2) {
+    width: 637px;
+    padding-left: 3px;
+  }
+
+  .comment .selection__item {
+    width: 631px;
+    margin-left: 23px;
+    line-height: 30px;
+    padding-top: 9px;
+    padding-bottom: 13px;
+    padding-left: 18px;
+  }
+
+  .additionally .selection__item {
+    width: 250px;
+    margin-right: 71px;
+    margin-bottom: 52px;
+    margin-left: 23px;
+    padding-left: 58px;
+  }
+
+  .additionally .selection__item:nth-child(2n) {
+    margin-right: 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .cat .selection__item {
+    width: 569px;
+    padding-left: 0;
+  }
+
+  .purpose .selection__item {
+    width: 500px;
+    margin-left: 0;
+  }
+
+  .owner .selection__item {
+    width: 569px;
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .owner .selection__item:nth-child(2) {
+    width: 572px;
+    margin-right: 0;
+    margin-left: 69px;
+    padding-left: 0;
+  }
+
+  .comment .selection__item {
+    width: 1220px;
+    margin-left: 0;
+  }
+
+  .additionally .selection__item {
+    margin-right: 75px;
+    margin-left: 0;
+  }
+
+  .additionally .selection__item:nth-child(2n) {
+    margin-right: 75px;
+  }
+
+  .additionally .selection__item:nth-child(4n) {
+    width: 245px;
+    margin-right: 0;
+  }
+}

@@ -1,1 +1,20 @@
-// TODO: do this
+.slider__toggles {
+  display: flex;
+  justify-content: space-between;
+  width: 209px;
+  margin: 0;
+  margin-left: 58px;
+}
+
+@media (min-width: $tablet-width) {
+  .slider__toggles {
+    width: 570px;
+    margin-left: 69px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .slider__toggles {
+    margin-left: 80px;
+  }
+}
