@@ -5,6 +5,7 @@
   line-height: 20px;
   text-transform: uppercase;
   margin: 0;
+  // background-color: lightsalmon;
 }
 
 @media (min-width: $tablet-width) {
@@ -12,5 +13,6 @@
     width: 154px;
     font-size: 20px;
     line-height: 25px;
+    padding-top: 2px;
   }
 }

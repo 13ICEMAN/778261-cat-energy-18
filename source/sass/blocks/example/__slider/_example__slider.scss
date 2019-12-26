@@ -1,1 +1,9 @@
-// TODO: do this
+.example__slider {
+  margin: 0 auto;
+}
+
+@media (min-width: $desktop-width) {
+  .example__slider {
+    margin: 0;
+  }
+}

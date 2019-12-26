@@ -1,6 +1,6 @@
 .program__text {
   position: relative;
-  width: 225px;
+  width: 226px;
   margin-bottom: 40px;
   font-family: "Arial", sans-serif;
   font-size: 14px;
@@ -23,13 +23,13 @@
 @media (min-width: $tablet-width) {
   .program__text {
     width: 372px;
-    margin-bottom: 57px;
+    margin-bottom: 56px;
     font-size: 16px;
     line-height: 24px;
   }
 
   .programs__item:last-child .program__text {
-    width: 340px;
+    width: 341px;
   }
 
   .program__text::after {
@@ -40,7 +40,7 @@
 @media (min-width: $desktop-width) {
   .program__text,
   .programs__item:last-child .program__text {
-    width: 462px;
+    width: 464px;
     margin-bottom: 31px;
   }
 }

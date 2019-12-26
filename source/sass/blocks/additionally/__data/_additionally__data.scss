@@ -1,1 +1,43 @@
-// TODO: do this
+.additionally__data {
+  position: relative;
+  display: block;
+  cursor: pointer;
+}
+
+.additionally__checkbox + .additionally__data::before {
+  position: absolute;
+  content: "";
+  top: -5px;
+  left: -46px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #cdcdcd;
+}
+
+.additionally__checkbox:checked + .additionally__data::after {
+  position: absolute;
+  content: "";
+  top: 1px;
+  left: -41px;
+  width: 22px;
+  height: 17px;
+  background-image: url("../img/icon-tick.svg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: $tablet-width) {
+  .additionally__checkbox + .additionally__data::before {
+    top: -9px;
+    left: -58px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .additionally__checkbox:checked + .additionally__data::after {
+    top: 2px;
+    left: -48px;
+    width: 22px;
+    height: 17px;
+  }
+}

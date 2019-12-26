@@ -2,7 +2,6 @@
   @include font(400);
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   width: 320px;
   margin: 0 auto;
   padding-top: 11px;
@@ -21,6 +20,5 @@
   .page-header {
     width: 1220px;
     padding-top: 53px;
-    background-color: chartreuse;
   }
 }

@@ -1,33 +1,7 @@
 .contacts {
-  display: flex;
-  flex-wrap: wrap;
-  width: 280px;
-  margin: 0 auto;
-  padding-top: 8px;
-  padding-right: 3px;
-  padding-bottom: 26px;
-  background-color: yellow;
+  width: 100%;
 }
 
-@media (min-width: $tablet-width) {
-  .contacts {
-    width: 708px;
-    padding-top: 45px;
-    padding-right: 42px;
-    padding-bottom: 61px;
-    padding-left: 41px;
-  }
-}
-
-@media (min-width: $desktop-width) {
-  .contacts {
-    position: absolute;
-    top: 95px;
-    left: 110px;
-    width: 570px;
-    padding-top: 65px;
-    padding-right: 89px;
-    padding-bottom: 60px;
-    padding-left: 77px;
-  }
+.page-footer--initial .contacts {
+  background-color: #ffffff;
 }

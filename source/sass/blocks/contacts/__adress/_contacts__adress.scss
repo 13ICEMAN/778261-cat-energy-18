@@ -1,19 +1,25 @@
 .contacts__adress {
-  width: 135px;
+  width: 136px;
   margin-left: auto;
   font-family: "Arial", sans-serif;
   font-size: 14px;
   line-height: 20px;
   font-style: normal;
   color: #444444;
+  // background-color: lightskyblue;
 }
 
 @media (min-width: $tablet-width) {
   .contacts__adress {
     width: 155px;
-    margin-top: -2px;
+    // margin-top: -2px;
     font-size: 16px;
     text-align: right;
+  }
+
+  .contacts__adress span {
+    display: block;
+    margin-top: 20px;
   }
 }
 

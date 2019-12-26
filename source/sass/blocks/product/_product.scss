@@ -16,7 +16,9 @@
     position: relative;
     flex-direction: column;
     width: 324px;
+    padding-right: 0;
     padding-bottom: 40px;
+    padding-left: 0;
   }
 
   .product:not(:last-child)::after {
@@ -34,7 +36,7 @@
 
   .product:last-child {
     padding-top: 143px;
-    padding-bottom: 10px;
+    padding-bottom: 39px;
     border: 1px solid #cdcdcd;
     background-color: #ffffff;
   }

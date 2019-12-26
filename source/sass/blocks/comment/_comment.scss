@@ -1,1 +1,19 @@
-// TODO: do this
+.comment {
+  margin-bottom: 10px;
+}
+
+@media (min-width: $tablet-width) {
+  .comment {
+    margin-bottom: 48px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .comment {
+    margin-right: 0;
+    margin-bottom: 49px;
+    margin-left: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}

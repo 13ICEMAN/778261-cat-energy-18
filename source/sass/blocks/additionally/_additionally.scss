@@ -1,1 +1,19 @@
-// TODO: do this
+.additionally {
+  margin-bottom: 5px;
+}
+
+@media (min-width: $tablet-width) {
+  .additionally {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .additionally {
+    margin-right: 0;
+    margin-bottom: 8px;
+    margin-left: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}

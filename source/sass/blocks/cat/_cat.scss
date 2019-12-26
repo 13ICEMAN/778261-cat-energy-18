@@ -1,1 +1,18 @@
-// TODO: do this
+.cat {
+  padding-bottom: 23px;
+}
+
+@media (min-width: $tablet-width) {
+  .cat {
+    padding-bottom: 72px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .cat {
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-bottom: 20px;
+    padding-left: 1px;
+  }
+}

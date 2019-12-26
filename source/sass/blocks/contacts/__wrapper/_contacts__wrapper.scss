@@ -1,0 +1,32 @@
+.contacts__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 320px;
+  margin: 0 auto;
+  padding-top: 28px;
+  padding-right: 24px;
+  padding-bottom: 26px;
+  padding-left: 19px;
+}
+
+@media (min-width: $tablet-width) {
+  .contacts__wrapper {
+    width: 768px;
+    padding-top: 63px;
+    padding-right: 72px;
+    padding-bottom: 58px;
+    padding-left: 71px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .contacts__wrapper {
+    position: absolute;
+    top: 95px;
+    left: 110px;
+    width: 570px;
+    padding-right: 89px;
+    padding-left: 76px;
+    background-color: #ffffff;
+  }
+}
