@@ -1,0 +1,25 @@
+.owner__mail {
+  position: absolute;
+  content: "";
+  top: 17px;
+  right: 14px;
+  width: 18px;
+  height: 14px;
+  fill: #222222;
+}
+
+.owner__text:focus + .owner__mail,
+.owner__text:active + .owner__mail {
+  fill: #68b738;
+}
+
+.owner__text:not(:placeholder-shown):invalid + .owner__mail {
+  fill: #ff8282;
+}
+
+@media (min-width: $tablet-width) {
+  .owner__mail {
+    top: 20px;
+    right: 19px;
+  }
+}

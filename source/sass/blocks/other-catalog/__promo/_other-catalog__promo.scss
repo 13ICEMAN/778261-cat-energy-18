@@ -19,11 +19,16 @@
   }
 }
 
-.other-catalog__promo img {
+.other-catalog__promo::before {
   position: absolute;
   content: "";
   top: 65px;
   left: 113px;
+  width: 56px;
+  height: 61px;
+  background-image: url("../img/icon-gift.svg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
 }
 
 @media (min-width: $tablet-width) {
@@ -47,7 +52,7 @@
     }
   }
 
-  .other-catalog__promo img {
+  .other-catalog__promo::before {
     left: 91px;
   }
 }
@@ -75,7 +80,7 @@
     }
   }
 
-  .other-catalog__promo img {
+  .other-catalog__promo::before {
     left: 96px;
   }
 }

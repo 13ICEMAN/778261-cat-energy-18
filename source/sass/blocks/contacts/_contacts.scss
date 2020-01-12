@@ -1,5 +1,8 @@
 .contacts {
+  position: relative;
   width: 100%;
+  background-color: #f2f2f2;
+  z-index: 5;
 }
 
 .page-footer--initial .contacts {

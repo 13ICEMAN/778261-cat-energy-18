@@ -1,6 +1,11 @@
 .social {
-  width: 150px;
-  padding-top: 10px;
-  padding-right: 7px;
-  padding-bottom: 10px;
+  width: 155px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+
+@media (min-width: $tablet-width) {
+  .social {
+    padding-top: 8px;
+  }
 }

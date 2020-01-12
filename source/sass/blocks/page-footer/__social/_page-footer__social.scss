@@ -6,6 +6,15 @@
 
 @media (min-width: $tablet-width) {
   .page-footer__social {
+    margin-top: 3px;
+    margin-right: 0;
     margin-bottom: 0;
+    margin-left: 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .page-footer__social {
+    margin-top: 1px;
   }
 }

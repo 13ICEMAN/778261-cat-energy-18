@@ -17,6 +17,16 @@
   background-color: #68b738;
 }
 
+.selection__button:hover,
+.selection__button:focus {
+  outline: none;
+  background-color: #5eaa2f;
+}
+
+.selection__button:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
 @media (min-width: $tablet-width) {
   .selection__button {
     width: 283px;

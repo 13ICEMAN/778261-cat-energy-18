@@ -32,6 +32,7 @@
 }
 
 .owner .selection__item {
+  position: relative;
   display: flex;
   align-items: center;
   margin-bottom: 14px;
@@ -46,8 +47,18 @@
   padding-top: 13px;
   padding-bottom: 45px;
   padding-left: 15px;
-  border: 1px solid #cdcdcd;
+  border: 1px solid rgba(205, 205, 205, 0.5);
   resize: none;
+}
+
+.comment .selection__item:hover {
+  border-color: #cdcdcd;
+}
+
+.comment .selection__item:focus,
+.comment .selection__item:active {
+  outline: none;
+  border: 2px solid #444444;
 }
 
 .additionally .selection__item {

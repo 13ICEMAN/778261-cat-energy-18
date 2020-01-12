@@ -10,14 +10,14 @@
   text-align: center;
 }
 
-.site-list__link[href] {
-  &:hover {
-    opacity: 0.6;
-  }
+.site-list__link[href]:hover,
+.site-list__link[href]:focus {
+  outline: none;
+  opacity: 0.6;
+}
 
-  &:active {
-    opacity: 0.3;
-  }
+.site-list__link[href]:active {
+  opacity: 0.3;
 }
 
 @media (min-width: $tablet-width) {
