@@ -21,18 +21,28 @@
   background-repeat: no-repeat;
 }
 
-.program:first-child img {
+.program:first-child::after {
   position: absolute;
   content: "";
   top: 22px;
   left: 30px;
+  width: 35px;
+  height: 49px;
+  background-image: url("../img/icon-cat-slim.svg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
 }
 
-.program:last-child img {
+.program:last-child::after {
   position: absolute;
   content: "";
   top: 35px;
   left: 13px;
+  width: 67px;
+  height: 28px;
+  background-image: url("../img/icon-cat-pro.svg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
 }
 
 
@@ -51,14 +61,14 @@
     height: 200px;
   }
 
-  .program:first-child img {
+  .program:first-child::after {
     top: 80px;
     left: 475px;
     width: 141px;
     height: 194px;
   }
 
-  .program:last-child img {
+  .program:last-child::after {
     top: 135px;
     left: 412px;
     width: 268px;
@@ -79,14 +89,14 @@
     height: 100px;
   }
 
-  .program:first-child img {
+  .program:first-child::after {
     top: 41px;
     left: 65px;
     width: 71px;
     height: 97px;
   }
 
-  .program:last-child img {
+  .program:last-child::after {
     top: 69px;
     left: 34px;
     width: 134px;

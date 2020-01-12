@@ -1,4 +1,3 @@
-// TODO: do this
 .purpose__data {
   position: relative;
   display: block;
@@ -26,6 +25,16 @@
   background-color: #68b738;
   border-radius: 50%;
 }
+
+.purpose__data:hover::before,
+.purpose__data:focus::before {
+  border-color: #bababa;
+}
+
+.purpose__data:active {
+  opacity: 0.3;
+}
+
 
 @media (min-width: $tablet-width) {
   .purpose__radio + .purpose__data::before {

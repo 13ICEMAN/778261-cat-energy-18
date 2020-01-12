@@ -15,4 +15,13 @@
     border-bottom: 1px dotted #dcdcdc;
     font-size: 20px;
   }
+
+  .slider__toggle:hover,
+  .slider__toggle:focus {
+    border-bottom: 1px solid #dcdcdc;
+  }
+
+  .slider__toggle:active {
+    border-bottom: none;
+  }
 }

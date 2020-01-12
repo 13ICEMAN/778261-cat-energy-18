@@ -26,6 +26,15 @@
   background-repeat: no-repeat;
 }
 
+.additionally__data:hover::before,
+.additionally__data:focus::before {
+  border-color: #bababa;
+}
+
+.additionally__data:active {
+  opacity: 0.3;
+}
+
 @media (min-width: $tablet-width) {
   .additionally__checkbox + .additionally__data::before {
     top: -9px;
