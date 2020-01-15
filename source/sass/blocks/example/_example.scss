@@ -10,8 +10,7 @@
     position: relative;
     padding-top: 44px;
     padding-bottom: 68px;
-    background-color: #ffffff;
-    z-index: -2;
+    background: linear-gradient(to top, #f2f2f2 462px, #ffffff 462px);
   }
 
   .example::before {
@@ -24,19 +23,6 @@
     background-color: #cdcdcd;
     background-position: 0 0;
     background-repeat: no-repeat;
-  }
-
-  .example::after {
-    position: absolute;
-    content: "";
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 462px;
-    background-color: #f2f2f2;
-    background-position: 0 0;
-    background-repeat: no-repeat;
-    z-index: -1;
   }
 }
 

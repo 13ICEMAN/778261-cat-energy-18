@@ -7,7 +7,7 @@
   text-transform: uppercase;
 }
 
-.catalog__item:last-child .product__title {
+.product--last .product__title {
   width: 207px;
   margin-bottom: 8px;
   margin-left: 37px;
@@ -24,7 +24,7 @@
     text-align: center;
   }
 
-  .catalog__item:last-child .product__title {
+  .product--last .product__title {
     width: 137px;
     margin-right: auto;
     margin-bottom: 27px;

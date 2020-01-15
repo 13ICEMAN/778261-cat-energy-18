@@ -8,6 +8,7 @@
 
 @media (min-width: $tablet-width) {
   .slider__toggles {
+    position: relative;
     width: 570px;
     margin-left: 69px;
   }

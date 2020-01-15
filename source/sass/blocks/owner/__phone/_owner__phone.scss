@@ -1,7 +1,7 @@
 .owner__phone {
   position: absolute;
   content: "";
-  top: 13px;
+  top: 12px;
   right: 13px;
   width: 21px;
   height: 21px;
@@ -19,13 +19,13 @@
 
 @media (min-width: $tablet-width) {
   .owner__phone {
-    top: 17px;
-    right: 16px;
+    top: 16px;
+    right: 18px;
   }
 }
 
 @media (min-width: $desktop-width) {
   .owner__phone {
-    right: 18px;
+    right: 19px;
   }
 }

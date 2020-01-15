@@ -17,16 +17,6 @@
   .catalog__item:nth-child(2n) {
     margin-right: 0;
   }
-
-  .catalog__item:last-child {
-    align-self: flex-end;
-    margin-top: 5px;
-    margin-bottom: 0;
-  }
-
-  .catalog__item:nth-last-child(2) {
-    margin-bottom: 0;
-  }
 }
 
 @media (min-width: $desktop-width) {
@@ -41,14 +31,5 @@
 
   .catalog__item:nth-child(4n) {
     margin-right: 0;
-  }
-
-  .catalog__item:last-child {
-    margin-top: 4px;
-  }
-
-  .catalog__item:nth-last-child(3),
-  .catalog__item:nth-last-child(4) {
-    margin-bottom: 0;
   }
 }
