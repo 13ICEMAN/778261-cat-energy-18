@@ -1,0 +1,40 @@
+.product--last {
+  position: relative;
+  padding-top: 63px;
+}
+
+.product--last::after {
+  position: absolute;
+  content: "";
+  top: 26px;
+  left: 144px;
+  width: 31px;
+  height: 31px;
+  background-image: url("../img/icon-plus-mobile.svg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  opacity: 0.2;
+}
+
+@media (min-width: $tablet-width) {
+  .product--last {
+    align-self: flex-end;
+    padding-top: 143px;
+    padding-bottom: 39px;
+    border: 1px solid #cdcdcd;
+  }
+
+  .product--last::after {
+    top: 54px;
+    left: 132px;
+    width: 61px;
+    height: 61px;
+    background-image: url("../img/icon-plus.svg");
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .product--last::after {
+    left: 92px;
+  }
+}

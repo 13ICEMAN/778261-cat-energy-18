@@ -1,8 +1,8 @@
 .owner__mail {
   position: absolute;
   content: "";
-  top: 17px;
-  right: 14px;
+  top: 16px;
+  right: 15px;
   width: 18px;
   height: 14px;
   fill: #222222;
@@ -20,6 +20,12 @@
 @media (min-width: $tablet-width) {
   .owner__mail {
     top: 20px;
+    right: 20px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .owner__mail {
     right: 19px;
   }
 }

@@ -2,11 +2,10 @@
   @include font(400);
   display: block;
   width: 280px;
-  margin: 0 auto;
   margin-top: -5px;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 2px;
+  padding-left: 4px;
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
@@ -26,25 +25,25 @@
   color: rgba(255, 255, 255, 0.3);
 }
 
-.catalog__item:last-child .product__button {
+.product--last .product__button {
   margin-top: 0;
   color: #444444;
   background-color: #f2f2f2;
 }
 
-.catalog__item:last-child .product__button:hover,
-.catalog__item:last-child .product__button:focus {
+.product--last .product__button:hover,
+.product--last .product__button:focus {
   outline: none;
   background-color: #ebebeb;
 }
 
-.catalog__item:last-child .product__button:active {
+.product--last .product__button:active {
   color: rgba(68, 68, 68, 0.3);
 }
 
 @media (min-width: $tablet-width) {
   .product__button {
-    margin-top: 0;
+    margin: 0 auto;
     width: 249px;
   }
 }
