@@ -23,8 +23,7 @@
 
 .owner__text:focus,
 .owner__text:active {
-  outline: none;
-  border: 2px solid #444444;
+  outline: 2px solid #444444;
 }
 
 .owner__text:not(:placeholder-shown):invalid {
