@@ -1,1 +1,17 @@
-// TODO: do this
+.main-nav--closed .main-nav__toggle::before {
+  position: absolute;
+  content: "";
+  top: 5px;
+  left: 5px;
+  width: 25px;
+  height: 19px;
+  background-image: url("../img/icon-mobile-menu.svg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: $mobile-width-only) {
+  .main-nav--closed .site-list__item {
+    display: none;
+  }
+}

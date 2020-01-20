@@ -10,7 +10,7 @@
   background-repeat: no-repeat;
   background-size: 320px 305px;
 
-  @media (min-resolution: $retina-dppx) {
+  @media (min-resolution: $retina-dppx), (min-resolution: $retina-dpi) {
     background-image:
       url("../img/index-background-mobile@2x.webp"),
       url("../img/index-background-mobile@2x.jpg");

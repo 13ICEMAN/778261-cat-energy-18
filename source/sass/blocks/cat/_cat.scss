@@ -2,9 +2,25 @@
   padding-bottom: 23px;
 }
 
+.cat .selection__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.cat .selection__item:last-child {
+  margin-bottom: 0;
+}
+
 @media (min-width: $tablet-width) {
   .cat {
     padding-bottom: 72px;
+  }
+
+  .cat .selection__item {
+    width: 635px;
+    margin-bottom: 20px;
+    padding-left: 5px;
   }
 }
 
@@ -14,5 +30,10 @@
     margin-left: 0;
     padding-bottom: 20px;
     padding-left: 1px;
+  }
+
+  .cat .selection__item {
+    width: 569px;
+    padding-left: 0;
   }
 }

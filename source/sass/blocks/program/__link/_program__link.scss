@@ -9,7 +9,7 @@
 .program__link::after {
   position: absolute;
   content: "";
-  top: 6px;
+  top: 7px;
   right: -36px;
   width: 25px;
   height: 12px;
@@ -18,9 +18,9 @@
   background-repeat: no-repeat;
 }
 
-.program:last-child .program__link::after {
-  right: -38px;
-}
+// .program:last-child .program__link::after {
+//   right: -38px;
+// }
 
 .program__link:hover,
 .program__link:focus {
@@ -35,10 +35,10 @@
   height: 12px;
 }
 
-.program:last-child .program__link:hover::after,
-.program:last-child .program__link:focus::after {
-  right: -47px;
-}
+// .program:last-child .program__link:hover::after,
+// .program:last-child .program__link:focus::after {
+//   right: -47px;
+// }
 
 .program__link:active {
   opacity: 0.3;
@@ -57,19 +57,19 @@
     height: 11px;
   }
 
-  .program:last-child .program__link::after {
-    right: -47px;
-  }
+  // .program:last-child .program__link::after {
+  //   right: -47px;
+  // }
 
   .program__link:hover::after,
   .program__link:focus::after {
     right: -57px;
   }
 
-  .program:last-child .program__link:hover::after,
-  .program:last-child .program__link:focus::after {
-    right: -56px;
-  }
+  // .program:last-child .program__link:hover::after,
+  // .program:last-child .program__link:focus::after {
+  //   right: -56px;
+  // }
 }
 
 @media (min-width: $desktop-width) {
@@ -80,9 +80,9 @@
     height: 12px;
   }
 
-  .program:last-child .program__link::after {
-    top: 10px;
-  }
+  // .program:last-child .program__link::after {
+  //   top: 10px;
+  // }
 
   .program__link:hover::after,
   .program__link:focus::after {

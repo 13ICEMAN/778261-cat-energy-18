@@ -10,3 +10,9 @@
     margin-bottom: 69px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .other-catalog__list {
+    margin-bottom: 0;
+  }
+}

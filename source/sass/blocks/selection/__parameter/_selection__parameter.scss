@@ -4,59 +4,59 @@
   line-height: 24px;
 }
 
-.owner .selection__parameter {
-  position: relative;
-  margin-bottom: 27px;
-  margin-left: 3px;
-}
+// .owner .selection__parameter {
+//   position: relative;
+//   margin-bottom: 27px;
+//   margin-left: 3px;
+// }
 
-.owner .selection__parameter::after {
-  position: absolute;
-  content: "";
-  top: 14px;
-  left: 201px;
-  width: 99px;
-  height: 3px;
-  background-color: #68b738;
-  background-position: 0 0;
-  background-repeat: no-repeat;
-}
+// .owner .selection__parameter::after {
+//   position: absolute;
+//   content: "";
+//   top: 14px;
+//   left: 201px;
+//   width: 99px;
+//   height: 3px;
+//   background-color: #68b738;
+//   background-position: 0 0;
+//   background-repeat: no-repeat;
+// }
 
-.comment .selection__parameter {
-  position: relative;
-  margin-bottom: 28px;
-  margin-left: 3px;
-}
+// .comment .selection__parameter {
+//   position: relative;
+//   margin-bottom: 28px;
+//   margin-left: 3px;
+// }
 
-.comment .selection__parameter::after {
-  position: absolute;
-  content: "";
-  top: 14px;
-  left: 142px;
-  width: 158px;
-  height: 3px;
-  background-color: #68b738;
-  background-position: 0 0;
-  background-repeat: no-repeat;
-}
+// .comment .selection__parameter::after {
+//   position: absolute;
+//   content: "";
+//   top: 14px;
+//   left: 142px;
+//   width: 158px;
+//   height: 3px;
+//   background-color: #68b738;
+//   background-position: 0 0;
+//   background-repeat: no-repeat;
+// }
 
-.additionally .selection__parameter {
-  position: relative;
-  margin-bottom: 33px;
-  margin-left: 3px;
-}
+// .additionally .selection__parameter {
+//   position: relative;
+//   margin-bottom: 33px;
+//   margin-left: 3px;
+// }
 
-.additionally .selection__parameter::after {
-  position: absolute;
-  content: "";
-  top: 14px;
-  left: 164px;
-  width: 136px;
-  height: 3px;
-  background-color: #68b738;
-  background-position: 0 0;
-  background-repeat: no-repeat;
-}
+// .additionally .selection__parameter::after {
+//   position: absolute;
+//   content: "";
+//   top: 14px;
+//   left: 164px;
+//   width: 136px;
+//   height: 3px;
+//   background-color: #68b738;
+//   background-position: 0 0;
+//   background-repeat: no-repeat;
+// }
 
 @media (min-width: $tablet-width) {
   .selection__parameter {
@@ -64,111 +64,111 @@
     line-height: 36px;
   }
 
-  .owner .selection__parameter {
-    margin-bottom: 69px;
-    margin-left: 22px;
-  }
+  // .owner .selection__parameter {
+  //   margin-bottom: 69px;
+  //   margin-left: 22px;
+  // }
 
-  .owner .selection__parameter::before {
-    position: absolute;
-    content: "";
-    top: 22px;
-    right: 551px;
-    width: 30px;
-    height: 3px;
-    background-color: #68b738;
-    background-position: 0 0;
-    background-repeat: no-repeat;
-  }
+  // .owner .selection__parameter::before {
+  //   position: absolute;
+  //   content: "";
+  //   top: 22px;
+  //   right: 551px;
+  //   width: 30px;
+  //   height: 3px;
+  //   background-color: #68b738;
+  //   background-position: 0 0;
+  //   background-repeat: no-repeat;
+  // }
 
-  .owner .selection__parameter::after {
-    top: 22px;
-    left: 554px;
-    width: 145px;
-  }
+  // .owner .selection__parameter::after {
+  //   top: 22px;
+  //   left: 554px;
+  //   width: 145px;
+  // }
 
-  .comment .selection__parameter {
-    margin-bottom: 69px;
-    margin-left: 22px;
-  }
+  // .comment .selection__parameter {
+  //   margin-bottom: 69px;
+  //   margin-left: 22px;
+  // }
 
-  .comment .selection__parameter::before {
-    position: absolute;
-    content: "";
-    top: 22px;
-    right: 220px;
-    width: 30px;
-    height: 3px;
-    background-color: #68b738;
-    background-position: 0 0;
-    background-repeat: no-repeat;
-  }
+  // .comment .selection__parameter::before {
+  //   position: absolute;
+  //   content: "";
+  //   top: 22px;
+  //   right: 220px;
+  //   width: 30px;
+  //   height: 3px;
+  //   background-color: #68b738;
+  //   background-position: 0 0;
+  //   background-repeat: no-repeat;
+  // }
 
-  .comment .selection__parameter::after {
-    top: 22px;
-    left: 220px;
-    width: 479px;
-  }
+  // .comment .selection__parameter::after {
+  //   top: 22px;
+  //   left: 220px;
+  //   width: 479px;
+  // }
 
-  .additionally .selection__parameter {
-    margin-bottom: 59px;
-    margin-left: 22px;
-  }
+  // .additionally .selection__parameter {
+  //   margin-bottom: 59px;
+  //   margin-left: 22px;
+  // }
 
-  .additionally .selection__parameter::before {
-    position: absolute;
-    content: "";
-    top: 22px;
-    right: 250px;
-    width: 30px;
-    height: 3px;
-    background-color: #68b738;
-    background-position: 0 0;
-    background-repeat: no-repeat;
-  }
+  // .additionally .selection__parameter::before {
+  //   position: absolute;
+  //   content: "";
+  //   top: 22px;
+  //   right: 250px;
+  //   width: 30px;
+  //   height: 3px;
+  //   background-color: #68b738;
+  //   background-position: 0 0;
+  //   background-repeat: no-repeat;
+  // }
 
-  .additionally .selection__parameter::after {
-    top: 22px;
-    left: 253px;
-    width: 446px;
-  }
+  // .additionally .selection__parameter::after {
+  //   top: 22px;
+  //   left: 253px;
+  //   width: 446px;
+  // }
 }
 
 @media (min-width: $desktop-width) {
-  .owner .selection__parameter {
-    margin-bottom: 76px;
-    margin-left: -2px;
-  }
+  // .owner .selection__parameter {
+  //   margin-bottom: 76px;
+  //   margin-left: -2px;
+  // }
 
-  .owner .selection__parameter::before {
-    width: 70px;
-  }
+  // .owner .selection__parameter::before {
+  //   width: 70px;
+  // }
 
-  .owner .selection__parameter::after {
-    width: 777px;
-  }
+  // .owner .selection__parameter::after {
+  //   width: 777px;
+  // }
 
-  .comment .selection__parameter {
-    margin-left: -1px;
-  }
+  // .comment .selection__parameter {
+  //   margin-left: -1px;
+  // }
 
-  .comment .selection__parameter::before {
-    width: 70px;
-  }
+  // .comment .selection__parameter::before {
+  //   width: 70px;
+  // }
 
-  .comment .selection__parameter::after {
-    width: 1111px;
-  }
+  // .comment .selection__parameter::after {
+  //   width: 1111px;
+  // }
 
-  .additionally .selection__parameter {
-    margin-left: -1px;
-  }
+  // .additionally .selection__parameter {
+  //   margin-left: -1px;
+  // }
 
-  .additionally .selection__parameter::before {
-    width: 70px;
-  }
+  // .additionally .selection__parameter::before {
+  //   width: 70px;
+  // }
 
-  .additionally .selection__parameter::after {
-    width: 1078px;
-  }
+  // .additionally .selection__parameter::after {
+  //   width: 1078px;
+  // }
 }

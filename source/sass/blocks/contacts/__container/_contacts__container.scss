@@ -1,0 +1,10 @@
+.contacts__container {
+  position: relative;
+}
+
+@media (min-width: $desktop-width) {
+  .contacts__container {
+    width: 1300px;
+    margin: 0 auto;
+  }
+}

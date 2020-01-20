@@ -13,9 +13,9 @@
   text-transform: uppercase;
 }
 
-.selection__item:nth-child(2) .owner__text {
-  margin-left: 10px;
-}
+// .selection__item:nth-child(2) .owner__text {
+//   margin-left: 10px;
+// }
 
 .owner__text:hover {
   border-color: #cdcdcd;
@@ -41,10 +41,10 @@
     line-height: 20px;
   }
 
-  .selection__item:nth-child(2) .owner__text {
-    margin-left: 16px;
-    padding-left: 19px;
-  }
+  // .selection__item:nth-child(2) .owner__text {
+  //   margin-left: 16px;
+  //   padding-left: 19px;
+  // }
 }
 
 @media (min-width: $desktop-width) {
@@ -53,8 +53,8 @@
     padding-left: 18px;
   }
 
-  .selection__item:nth-child(2) .owner__text {
-    margin-left: 17px;
-    padding-left: 18px;
-  }
+  // .selection__item:nth-child(2) .owner__text {
+  //   margin-left: 17px;
+  //   padding-left: 18px;
+  // }
 }

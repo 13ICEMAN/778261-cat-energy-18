@@ -26,8 +26,8 @@
   border-radius: 50%;
 }
 
-.purpose__data:hover::before,
-.purpose__data:focus::before {
+.purpose__radio:hover + .purpose__data::before,
+.purpose__radio:focus + .purpose__data::before {
   border-color: #bababa;
 }
 
@@ -35,6 +35,11 @@
   opacity: 0.3;
 }
 
+.purpose__radio:disabled + .purpose__data,
+.purpose__radio:disabled + .purpose__data::before {
+  opacity: 0.5;
+  cursor: default;
+}
 
 @media (min-width: $tablet-width) {
   .purpose__radio + .purpose__data::before {
