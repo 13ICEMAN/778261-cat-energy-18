@@ -19,11 +19,19 @@
     background-repeat: no-repeat;
     z-index: -2;
 
-    @media (min-resolution: $retina-dppx) {
+    @media (min-resolution: $retina-dppx), (min-resolution: $retina-dpi) {
       background-image:
         url("../img/index-background-desktop@2x.webp"),
         url("../img/index-background-desktop@2x.jpg");
       background-size: cover;
     }
+  }
+
+  .page-header--initial .site-list__item--active {
+    border-bottom: 2px solid #ffffff;
+  }
+
+  .page-header--initial .site-list__link {
+    color: #ffffff;
   }
 }

@@ -26,13 +26,20 @@
   background-repeat: no-repeat;
 }
 
-.additionally__data:hover::before,
-.additionally__data:focus::before {
+.additionally__checkbox:focus + .additionally__data::before,
+.additionally__checkbox:hover + .additionally__data::before {
   border-color: #bababa;
 }
 
-.additionally__data:active {
+.additionally__checkbox:active + .additionally__data,
+.additionally__checkbox:active + .additionally__data::before {
   opacity: 0.3;
+}
+
+.additionally__checkbox:disabled + .additionally__data,
+.additionally__checkbox:disabled + .additionally__data::before {
+  opacity: 0.5;
+  cursor: default;
 }
 
 @media (min-width: $tablet-width) {

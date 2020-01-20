@@ -184,7 +184,7 @@
             <div class="slider__toggles">
               <button class="slider__toggle" type="button">Было</button>
               <div class="slider__scale">
-                <button class="slider__switch" type="button"></button>
+                <button class="slider__switch" type="button" aria-label="Переключатель состояний кота"></button>
               </div>
               <button class="slider__toggle" type="button">Стало</button>
             </div>
@@ -196,9 +196,11 @@
     <footer class="page-footer page-footer--initial">
 
       <div class="page-footer__contacts contacts">
-        <div class="contacts__wrapper">
-          <p class="contacts__text">Приглашаем к&nbsp;сотрудничеству дилеров!</p>
-          <address class="contacts__adress">ул. Большая Конюшенная, д. 19/8 <span>Санкт-Петербург</span></address>
+        <div class="contacts__container">
+          <div class="contacts__wrapper">
+            <p class="contacts__text">Приглашаем к&nbsp;сотрудничеству дилеров!</p>
+            <address class="contacts__adress">ул. Большая Конюшенная, д. 19/8 <span>Санкт-Петербург</span></address>
+          </div>
         </div>
       </div>
 
@@ -275,6 +277,11 @@
 
     <script src="js/open-menu.js"></script>
     <script src="js/picturefill.min.js"></script>
+    <script src="js/svg4everybody.min.js"></script>
+    <script>
+      svg4everybody();
+
+    </script>
 
   </body>
 </html>

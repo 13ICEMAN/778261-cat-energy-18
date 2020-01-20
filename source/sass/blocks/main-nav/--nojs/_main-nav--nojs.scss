@@ -1,1 +1,13 @@
-// TODO: do this
+@media (max-width: $mobile-width-only) {
+  .main-nav--nojs .site-list__item {
+    display: block;
+  }
+
+  .main-nav--nojs .main-nav__toggle {
+    display: none;
+  }
+
+  .main-nav--nojs .site-list {
+    position: static;
+  }
+}
