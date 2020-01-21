@@ -1,5 +1,6 @@
 .owner {
-  margin-bottom: 16px;
+  // margin-bottom: 16px;
+  margin-bottom: 18px;
 }
 
 .owner .selection__item {
@@ -15,7 +16,8 @@
 
 .owner .selection__parameter {
   position: relative;
-  margin-bottom: 27px;
+  // margin-bottom: 27px;
+  margin-bottom: 29px;
   margin-left: 3px;
 }
 
@@ -33,7 +35,8 @@
 
 @media (min-width: $tablet-width) {
   .owner {
-    margin-bottom: 52px;
+    // margin-bottom: 52px;
+    margin-bottom: 56px;
   }
 
   .owner .selection__item {
@@ -49,7 +52,8 @@
 
   .owner .selection__parameter {
     width: 100%;
-    margin-bottom: 69px;
+    // margin-bottom: 69px;
+    margin-bottom: 70px;
     margin-left: 22px;
   }
 

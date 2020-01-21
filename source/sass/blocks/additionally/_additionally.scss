@@ -1,5 +1,6 @@
 .additionally {
-  margin-bottom: 5px;
+  // margin-bottom: 5px;
+  margin-bottom: 7px;
 }
 
 .additionally .selection__item {
@@ -13,7 +14,8 @@
 
 .additionally .selection__parameter {
   position: relative;
-  margin-bottom: 33px;
+  // margin-bottom: 33px;
+  margin-bottom: 35px;
   margin-left: 3px;
 }
 
@@ -31,7 +33,8 @@
 
 @media (min-width: $tablet-width) {
   .additionally {
-    margin-bottom: 0;
+    // margin-bottom: 0;
+    margin-bottom: 3px;
   }
 
   .additionally .selection__item {
@@ -48,7 +51,8 @@
 
   .additionally .selection__parameter {
     width: 100%;
-    margin-bottom: 59px;
+    // margin-bottom: 59px;
+    margin-bottom: 60px;
     margin-left: 22px;
   }
 
@@ -73,7 +77,8 @@
 @media (min-width: $desktop-width) {
   .additionally {
     margin-right: 0;
-    margin-bottom: 8px;
+    // margin-bottom: 8px;
+    margin-bottom: 10px;
     margin-left: 0;
     padding-right: 0;
     padding-left: 0;
@@ -94,6 +99,7 @@
   }
 
   .additionally .selection__parameter {
+    margin-bottom: 61px;
     margin-left: -1px;
   }
 

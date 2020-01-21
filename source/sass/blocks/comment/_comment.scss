@@ -1,11 +1,13 @@
 .comment {
-  margin-bottom: 10px;
+  // margin-bottom: 10px;
+  margin-bottom: 18px;
 }
 
 .comment .selection__item {
   margin-left: 3px;
   padding-top: 13px;
-  padding-bottom: 45px;
+  // padding-bottom: 45px;
+  padding-bottom: 16px;
   padding-left: 15px;
   border: 1px solid rgba(205, 205, 205, 0.5);
   resize: none;
@@ -22,7 +24,8 @@
 
 .comment .selection__parameter {
   position: relative;
-  margin-bottom: 28px;
+  // margin-bottom: 28px;
+  margin-bottom: 30px;
   margin-left: 3px;
 }
 
@@ -40,7 +43,8 @@
 
 @media (min-width: $tablet-width) {
   .comment {
-    margin-bottom: 48px;
+    // margin-bottom: 48px;
+    margin-bottom: 55px;
   }
 
   .comment .selection__item {
@@ -48,13 +52,15 @@
     margin-left: 23px;
     line-height: 30px;
     padding-top: 9px;
-    padding-bottom: 13px;
+    // padding-bottom: 13px;
+    padding-bottom: 15px;
     padding-left: 18px;
   }
 
   .comment .selection__parameter {
     width: 100%;
-    margin-bottom: 69px;
+    // margin-bottom: 69px;
+    margin-bottom: 70px;
     margin-left: 22px;
   }
 
@@ -79,7 +85,8 @@
 @media (min-width: $desktop-width) {
   .comment {
     margin-right: 0;
-    margin-bottom: 49px;
+    // margin-bottom: 49px;
+    margin-bottom: 57px;
     margin-left: 0;
     padding-right: 0;
     padding-left: 0;

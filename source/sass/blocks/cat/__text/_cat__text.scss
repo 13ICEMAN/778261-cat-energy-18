@@ -2,8 +2,10 @@
   @include font(400);
   width: 100%;
   margin-left: 14px;
-  padding-top: 13px;
-  padding-bottom: 12px;
+  // padding-top: 13px;
+  padding-top: 9px;
+  // padding-bottom: 12px;
+  padding-bottom: 10px;
   padding-left: 14px;
   border: 1px solid rgba(205, 205, 205, 0.5);
   font-size: 16px;
@@ -37,7 +39,8 @@
   .cat__text {
     margin-left: 16px;
     padding-top: 10px;
-    padding-bottom: 10px;
+    // padding-bottom: 10px;
+    padding-bottom: 11px;
     padding-left: 18px;
     font-size: 20px;
     line-height: 20px;
