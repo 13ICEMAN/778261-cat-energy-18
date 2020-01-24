@@ -28,17 +28,12 @@
     line-height: 24px;
   }
 
-  // .programs__item:last-child .program__text {
-  //   width: 341px;
-  // }
-
   .program__text::after {
     display: none;
   }
 }
 
 @media (min-width: $desktop-width) {
-  // .programs__item:last-child .program__text,
   .program__text {
     width: 464px;
     margin-bottom: 31px;
