@@ -1,0 +1,171 @@
+.additionally {
+  margin-bottom: 5px;
+}
+
+.additionally .selection__item {
+  margin-bottom: 24px;
+  padding-left: 46px;
+}
+
+.additionally .selection__item:first-child {
+  margin-bottom: 25px;
+}
+
+.additionally .selection__parameter {
+  position: relative;
+  margin-bottom: 33px;
+  margin-left: 3px;
+}
+
+.additionally .selection__parameter::after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  width: 3000px;
+  height: 3px;
+  margin-left: 23px;
+  background-color: #68b738;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+.additionally__data {
+  position: relative;
+  display: block;
+  cursor: pointer;
+}
+
+.additionally__checkbox + .additionally__data::before {
+  position: absolute;
+  content: "";
+  top: -5px;
+  left: -46px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #cdcdcd;
+}
+
+.additionally__checkbox:checked + .additionally__data::after {
+  position: absolute;
+  content: "";
+  top: 1px;
+  left: -41px;
+  width: 22px;
+  height: 17px;
+  background-image: url("../img/icon-tick.svg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+.additionally__checkbox:focus + .additionally__data::before,
+.additionally__checkbox:hover + .additionally__data::before {
+  border-color: #bababa;
+}
+
+.additionally__checkbox:active + .additionally__data,
+.additionally__checkbox:active + .additionally__data::before {
+  opacity: 0.3;
+}
+
+.additionally__checkbox:disabled + .additionally__data,
+.additionally__checkbox:disabled + .additionally__data::before {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.additionally__list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+@media (min-width: $tablet-width) {
+  .additionally {
+    margin-bottom: 0;
+  }
+
+  .additionally .selection__item {
+    width: 250px;
+    margin-right: 71px;
+    margin-bottom: 52px;
+    margin-left: 23px;
+    padding-left: 58px;
+  }
+
+  .additionally .selection__item:nth-child(2n) {
+    margin-right: 0;
+  }
+
+  .additionally .selection__parameter {
+    width: 100%;
+    margin-bottom: 59px;
+    margin-left: 22px;
+  }
+
+  .additionally .selection__parameter::before {
+    position: absolute;
+    content: "";
+    top: 22px;
+    right: 713px;
+    width: 1000px;
+    height: 3px;
+    background-color: #68b738;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+  }
+
+  .additionally .selection__parameter::after {
+    top: 22px;
+    margin-left: 43px;
+  }
+
+  .additionally__checkbox + .additionally__data::before {
+    top: -9px;
+    left: -58px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .additionally__checkbox:checked + .additionally__data::after {
+    top: 2px;
+    left: -48px;
+    width: 22px;
+    height: 17px;
+  }
+
+  .additionally__list {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .additionally {
+    margin-right: 0;
+    margin-bottom: 8px;
+    margin-left: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .additionally .selection__item {
+    margin-right: 75px;
+    margin-left: 0;
+  }
+
+  .additionally .selection__item:nth-child(2n) {
+    margin-right: 75px;
+  }
+
+  .additionally .selection__item:nth-child(4n) {
+    width: 245px;
+    margin-right: 0;
+  }
+
+  .additionally .selection__parameter {
+    margin-left: -1px;
+  }
+
+  .additionally .selection__parameter::before {
+    right: 1259px;
+  }
+}

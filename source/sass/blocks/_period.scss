@@ -1,0 +1,63 @@
+.period {
+  position: relative;
+  width: 125px;
+}
+
+.period__days {
+  @include font(400);
+  padding-top: 7px;
+  padding-right: 20px;
+  padding-bottom: 11px;
+  padding-left: 21px;
+  border: 1px solid #cdcdcd;
+  border-radius: 3px;
+  font-size: 24px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.period__text {
+  position: absolute;
+  top: 33px;
+  left: 19px;
+  width: 87px;
+  padding-right: 15px;
+  padding-left: 14px;
+  font-family: "Arial", sans-serif;
+  font-size: 12px;
+  line-height: 12px;
+  color: #444444;
+  text-align: center;
+  background-color: #f2f2f2;
+}
+
+@media (min-width: $tablet-width) {
+  .period {
+    width: 162px;
+  }
+
+  .period__days {
+    padding-top: 11px;
+    padding-right: 29px;
+    padding-bottom: 14px;
+    padding-left: 29px;
+    font-size: 30px;
+    line-height: 37px;
+  }
+
+  .period__text {
+    top: 48px;
+    left: 10px;
+    width: 142px;
+    padding-right: 8px;
+    padding-left: 7px;
+    font-size: 14px;
+    background-color: #ffffff;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .period__text {
+    background-color: #f2f2f2;
+  }
+}

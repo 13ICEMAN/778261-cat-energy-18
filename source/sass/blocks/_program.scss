@@ -1,0 +1,250 @@
+.program {
+  position: relative;
+  width: 280px;
+  margin: 0 auto;
+  padding-top: 6px;
+  padding-bottom: 18px;
+  padding-left: 20px;
+  background-color: #f2f2f2;
+}
+
+.program::before {
+  position: absolute;
+  content: "";
+  top: 24px;
+  left: 22px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #68b738;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+.program::after {
+  position: absolute;
+  content: "";
+  top: 22px;
+  left: 30px;
+  width: 35px;
+  height: 49px;
+  background-image: url("../img/icon-cat-slim.svg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+.program:nth-child(2)::after {
+  position: absolute;
+  content: "";
+  top: 35px;
+  left: 13px;
+  width: 67px;
+  height: 28px;
+  background-image: url("../img/icon-cat-pro.svg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+.program:nth-child(2) .program__link::after {
+  right: -38px;
+}
+
+.program:nth-child(2) .program__link:hover::after,
+.program:nth-child(2) .program__link:focus::after {
+  right: -47px;
+}
+
+.program__link {
+  @include font(400);
+  position: relative;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+
+.program__link::after {
+  position: absolute;
+  content: "";
+  top: 7px;
+  right: -36px;
+  width: 25px;
+  height: 12px;
+  background-image: url("../img/icon-right-arrow-long.svg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+.program__link:hover,
+.program__link:focus {
+  outline: none;
+}
+
+.program__link:hover::after,
+.program__link:focus::after {
+  background-image: url("../img/icon-right-arrow-verylong.svg");
+  right: -45px;
+  width: 34px;
+  height: 12px;
+}
+
+.program__link:active {
+  opacity: 0.3;
+}
+
+.program__text {
+  position: relative;
+  width: 226px;
+  margin-bottom: 39px;
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  color: #444444;
+}
+
+.program__text::after {
+  position: absolute;
+  content: "";
+  bottom: -23px;
+  left: 0;
+  width: 240px;
+  height: 1px;
+  background-color: #cdcdcd;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+.program__title {
+  @include font(400);
+  margin-bottom: 29px;
+  padding-left: 71px;
+  font-size: 24px;
+  line-height: 37px;
+  text-transform: uppercase;
+}
+
+@media (min-width: $tablet-width) {
+  .program {
+    width: 708px;
+    padding-top: 40px;
+    padding-bottom: 58px;
+    padding-left: 52px;
+  }
+
+  .program::before {
+    top: 92px;
+    left: 447px;
+    width: 200px;
+    height: 200px;
+  }
+
+  .program::after {
+    top: 80px;
+    left: 475px;
+    width: 141px;
+    height: 194px;
+  }
+
+  .program:nth-child(2)::after {
+    top: 135px;
+    left: 412px;
+    width: 268px;
+    height: 113px;
+  }
+
+  .program:nth-child(2) .program__link::after {
+    right: -47px;
+  }
+
+  .program:nth-child(2) .program__link:hover::after,
+  .program:nth-child(2) .program__link:focus::after {
+    right: -56px;
+  }
+
+  .program__link {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .program__link::after {
+    top: 10px;
+    right: -48px;
+    width: 24px;
+    height: 11px;
+  }
+
+  .program__link:hover::after,
+  .program__link:focus::after {
+    right: -57px;
+  }
+
+  .program__text {
+    width: 372px;
+    margin-bottom: 56px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .program__text::after {
+    display: none;
+  }
+
+  .program__title {
+    margin-bottom: 25px;
+    padding-left: 1px;
+    font-size: 36px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .program {
+    width: 570px;
+    margin: 0;
+  }
+
+  .program::before {
+    top: 47px;
+    left: 52px;
+    width: 100px;
+    height: 100px;
+  }
+
+  .program::after {
+    top: 41px;
+    left: 65px;
+    width: 71px;
+    height: 97px;
+  }
+
+  .program:nth-child(2)::after {
+    top: 69px;
+    left: 34px;
+    width: 134px;
+    height: 57px;
+  }
+
+  .program:nth-child(2) .program__link::after {
+    top: 10px;
+  }
+
+  .program__link::after {
+    top: 9px;
+    right: -49px;
+    width: 25px;
+    height: 12px;
+  }
+
+  .program__link:hover::after,
+  .program__link:focus::after {
+    right: -58px;
+  }
+
+  .program__text {
+    width: 464px;
+    margin-bottom: 31px;
+  }
+
+  .program__title {
+    margin-bottom: 74px;
+    padding-left: 162px;
+  }
+}

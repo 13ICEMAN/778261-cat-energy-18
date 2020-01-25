@@ -1,0 +1,135 @@
+.slider {
+  width: 320px;
+}
+
+.slider__item:last-child {
+  display: none;
+}
+
+.slider__list {
+  @include list;
+  margin-bottom: 26px;
+}
+
+.slider__scale {
+  position: relative;
+  width: 84px;
+  height: 14px;
+  margin-top: 4px;
+  border: 1px solid #cdcdcd;
+  border-radius: 6px;
+  background-color: #ffffff;
+}
+
+.slider__switch {
+  position: absolute;
+  content: "";
+  top: 3px;
+  left: 5px;
+  width: 35px;
+  height: 6px;
+  border: none;
+  border-radius: 3px;
+  background-color: #68b738;
+}
+
+.slider__toggle {
+  @include font(400);
+  border: none;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  background-color: #f2f2f2;
+  cursor: pointer;
+  outline: none;
+}
+
+.slider__toggles {
+  display: flex;
+  justify-content: space-between;
+  width: 209px;
+  margin: 0;
+  margin-left: 58px;
+}
+
+@media (min-width: $tablet-width) {
+  .slider {
+    width: 768px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .slider__list {
+    margin-bottom: 14px;
+  }
+
+  .slider__scale {
+    width: 428px;
+    height: 6px;
+    margin-top: 8px;
+    border: none;
+    border-radius: 2.5px;
+    background-color: #dcdcdc;
+  }
+
+  .slider__switch {
+    top: -14px;
+    left: 199px;
+    width: 34px;
+    height: 34px;
+    border: 1px solid #cdcdcd;
+    border-radius: 50%;
+    background: radial-gradient(circle, #68b738 0, #68b738 4px, #ffffff 4px);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.15);
+  }
+
+  .slider__switch:hover,
+  .slider__switch:focus {
+    outline: none;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.25);
+  }
+
+  .slider__switch:active {
+    border: 2px solid #68b738;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.3);
+  }
+
+  .slider__toggle {
+    padding: 0;
+    padding-bottom: 6px;
+    border-bottom: 1px dotted #dcdcdc;
+    font-size: 20px;
+  }
+
+  .slider__toggle:hover,
+  .slider__toggle:focus {
+    border-bottom: 1px solid #dcdcdc;
+  }
+
+  .slider__toggle:active {
+    padding-bottom: 7px;
+    border-bottom: none;
+  }
+
+  .slider__toggles {
+    position: relative;
+    width: 570px;
+    margin-left: 69px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .slider {
+    width: 690px;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .slider__list {
+    margin-bottom: 35px;
+  }
+
+  .slider__toggles {
+    margin-left: 80px;
+  }
+}

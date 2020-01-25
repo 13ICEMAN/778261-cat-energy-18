@@ -1,0 +1,147 @@
+.other-product {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  padding-top: 13px;
+  padding-bottom: 17px;
+  border-top: 1px solid #cdcdcd;
+}
+
+.other-product:last-child {
+  border-bottom: 1px solid #cdcdcd;
+}
+
+.other-product__button {
+  @include font(400);
+  display: block;
+  width: 280px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 2px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #68b738;
+}
+
+.other-product__button:hover,
+.other-product__button:focus {
+  outline: none;
+  background-color: #5eaa2f;
+}
+
+.other-product__button:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.other-product__data {
+  width: 286px;
+  margin-bottom: 13px;
+  margin-left: -3px;
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 14px;
+  color: #444444;
+}
+
+.other-product__parameter {
+  padding: 0;
+}
+
+.other-product__title {
+  @include font(400);
+  margin: 0;
+  margin-bottom: 11px;
+  margin-left: 1px;
+  font-size: 16px;
+  line-height: 16px;
+  color: #222222;
+  text-transform: uppercase;
+}
+
+.other-product__value {
+  width: 91px;
+  padding: 0;
+  text-align: right;
+}
+
+@media (min-width: $tablet-width) {
+  .other-product {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 708px;
+    padding-top: 25px;
+    padding-right: 36px;
+    padding-bottom: 27px;
+    padding-left: 37px;
+    border: 1px solid #cdcdcd;
+  }
+
+  .other-product:not(:last-child) {
+    border-bottom: none;
+  }
+
+  .other-product__button {
+    width: 633px;
+    padding-left: 0;
+  }
+
+  .other-product__data {
+    margin-top: 2px;
+    margin-left: auto;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .other-product__parameter {
+    text-align: right;
+  }
+
+  .other-product__title {
+    margin-bottom: 26px;
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .other-product {
+    width: 895px;
+    padding-top: 15px;
+    padding-right: 0;
+    padding-bottom: 16px;
+    padding-left: 1px;
+    border-right: none;
+    border-left: none;
+    align-items: center;
+  }
+
+  .other-product__button {
+    width: 245px;
+    margin-left: 35px;
+    padding-left: 2px;
+    align-self: flex-start;
+  }
+
+  .other-product__data {
+    width: 292px;
+    margin-top: 8px;
+    margin-bottom: 0;
+  }
+
+  .other-product__parameter {
+    text-align: left;
+  }
+
+  .other-product__title {
+    margin: 0;
+  }
+
+  .other-product__value {
+    width: 47px;
+    text-align: left;
+  }
+}
