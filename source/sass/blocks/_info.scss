@@ -26,7 +26,7 @@
   background-repeat: no-repeat;
 }
 
-.info__item::after {
+.info__item--functional::after {
   position: absolute;
   content: "";
   top: 5px;
@@ -43,9 +43,16 @@
   }
 }
 
-.info__item:nth-child(2)::after {
+.info__item--powder::after {
+  position: absolute;
+  content: "";
   top: 4px;
+  left: 5px;
+  width: 50px;
+  height: 50px;
   background-image: url("../img/advantage-powder@1x.png");
+  background-position: 0 0;
+  background-repeat: no-repeat;
 
   @media (min-resolution: $retina-dppx), (min-resolution: $retina-dpi) {
     background-image: url("../img/advantage-powder@2x.png");
@@ -53,9 +60,16 @@
   }
 }
 
-.info__item:nth-child(3)::after {
+.info__item--change::after {
+  position: absolute;
+  content: "";
+  top: 5px;
   left: 4px;
+  width: 50px;
+  height: 50px;
   background-image: url("../img/advantage-dining@1x.png");
+  background-position: 0 0;
+  background-repeat: no-repeat;
 
   @media (min-resolution: $retina-dppx), (min-resolution: $retina-dpi) {
     background-image: url("../img/advantage-dining@2x.png");
@@ -63,8 +77,16 @@
   }
 }
 
-.info__item:nth-child(4)::after {
+.info__item--enjoy::after {
+  position: absolute;
+  content: "";
+  top: 5px;
+  left: 5px;
+  width: 50px;
+  height: 50px;
   background-image: url("../img/advantage-clock@1x.png");
+  background-position: 0 0;
+  background-repeat: no-repeat;
 
   @media (min-resolution: $retina-dppx), (min-resolution: $retina-dpi) {
     background-image: url("../img/advantage-clock@2x.png");
@@ -138,28 +160,35 @@
     height: 80px;
   }
 
-  .info__item::after {
+  .info__item--functional::after {
     top: 15px;
     left: 15px;
   }
 
-  .info__item:nth-child(2)::after {
+  .info__item--powder::after {
     top: 15px;
-  }
-
-  .info__item:nth-child(3)::after {
     left: 15px;
   }
 
-  .info__item:nth-child(1) .info__big {
+  .info__item--change::after {
+    top: 15px;
+    left: 15px;
+  }
+
+  .info__item--enjoy::after {
+    top: 15px;
+    left: 15px;
+  }
+
+  .info__item--functional .info__big {
     padding-right: 15px;
   }
 
-  .info__item:nth-child(3) .info__big {
+  .info__item--change .info__big {
     margin-right: -3px;
   }
 
-  .info__item:nth-child(4) .info__big {
+  .info__item--enjoy .info__big {
     margin-right: -4px;
   }
 
